@@ -45,17 +45,25 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- AWS SDK for SQS -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>sqs</artifactId>
+			<version>2.20.8</version> <!-- replace with the latest version -->
 		</dependency>
+
+		<!-- AWS SDK for Auth -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>auth</artifactId>
+			<version>2.20.8</version> <!-- replace with the latest version -->
 		</dependency>
+
+		<!-- AWS SDK for Regions -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>regions</artifactId>
+			<version>2.20.8</version> <!-- replace with the latest version -->
 		</dependency>
 	</dependencies>
 
